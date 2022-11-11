@@ -189,6 +189,9 @@ exclude:
   - node_modules
   - package*.json
 
+plugins:
+  - jekyll-sitemap
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
