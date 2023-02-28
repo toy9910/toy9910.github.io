@@ -6,8 +6,6 @@ categories: [Android]
 tags: [context]
 ---
 
-# Context
-
 ## Context란?
 
 안드로이드 개발을 하다보면 Context가 필요한 순간이 굉장히 많다. Context를 넣어야 할 때 항상 아무 생각없이 Activity값을 넣었는데 막상 Context가 무엇을 의미하는지는 모르고 있었다.
