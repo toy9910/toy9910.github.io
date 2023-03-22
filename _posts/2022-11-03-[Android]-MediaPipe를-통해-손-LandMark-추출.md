@@ -296,8 +296,10 @@ private fun startCamera() {
 }
 ```
 
-![](https://velog.velcdn.com/images/debaeloper08/post/f5c6759c-f3f2-4266-a95e-8b03a2ef76ff/image.png)이렇게 하면 성공적으로 FrameLayout에 자신의 손을 실시간으로 인식하는 영상을 볼 수 있을 것이다. 코드를 이해해가면서 작성하는 것을 추구하지만 프로젝트를 하면서 기능 구현할 시간이 많지 않았기에 해당 코드를 완벽하게 이해하진 못했다.
-![](https://velog.velcdn.com/images/debaeloper08/post/3a73c8cd-4a01-42c3-b34f-914f001ee573/image.png)Log에는 손의 21개 LandMark들의 x,y,z 값을 확인할 수 있다.
+![](https://velog.velcdn.com/images/debaeloper08/post/f5c6759c-f3f2-4266-a95e-8b03a2ef76ff/image.png)
+이렇게 하면 성공적으로 FrameLayout에 자신의 손을 실시간으로 인식하는 영상을 볼 수 있을 것이다. 코드를 이해해가면서 작성하는 것을 추구하지만 프로젝트를 하면서 기능 구현할 시간이 많지 않았기에 해당 코드를 완벽하게 이해하진 못했다.
+![](https://velog.velcdn.com/images/debaeloper08/post/3a73c8cd-4a01-42c3-b34f-914f001ee573/image.png)
+Log에는 손의 21개 LandMark들의 x,y,z 값을 확인할 수 있다.
 
 손 말고 얼굴 인식도 아래 코드를 참고해서 하면 될 것 같다.
 [Mediapipe Github 참고자료](https://github.com/google/mediapipe/tree/master/mediapipe/examples/android/solutions)
