@@ -82,8 +82,6 @@ img_cdn: ""
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/profile.jpeg"
 
-future: true
-
 # boolean type, the global switch for ToC in posts.
 toc: true
 
