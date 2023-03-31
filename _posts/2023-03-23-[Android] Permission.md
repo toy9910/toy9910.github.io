@@ -24,13 +24,13 @@ Protection level의 종류로는
 
 ## 권한 요청
 
-shouldShowRequestPermissionRationale 함수는 _사용자가 이전에 권한 요청을 거부한 경우, 해당 권한이 필요한 이유를 설명하고 추가적인 설명이 필요한지 여부를 확인하기 위해_ 호출된다.
+```shouldShowRequestPermissionRationale``` 함수는 _사용자가 이전에 권한 요청을 거부한 경우, 해당 권한이 필요한 이유를 설명하고 추가적인 설명이 필요한지 여부를 확인하기 위해_ 호출된다.
 
-예를 들어, 카메라 권한을 필요로 하는 앱을 설치했다고 가정하자. 앱을 처음에 실행했을 때는 shouldShowRequestPermissionRationale 함수는 false 값을 반환할 것이고, 카메라 권한을 허용한 후에도 shouldShowRequestPermissionRationale 함수는 false 값을 반환할 것이다.
+예를 들어, 카메라 권한을 필요로 하는 앱을 설치했다고 가정하자. 앱을 처음에 실행했을 때는 ```shouldShowRequestPermissionRationale``` 함수는 false 값을 반환할 것이고, 카메라 권한을 허용한 후에도 ```shouldShowRequestPermissionRationale``` 함수는 false 값을 반환할 것이다.
 
-하지만 카메라 권한을 허용하지 않고 shouldShowRequestPermissionRationale 함수를 호출하면 해당 권한이 필요한 이유를 설명해야 하기 때문에 true 값을 반환한다.
+하지만 카메라 권한을 허용하지 않고 ```shouldShowRequestPermissionRationale``` 함수를 호출하면 해당 권한이 필요한 이유를 설명해야 하기 때문에 true 값을 반환한다.
 
-따라서, 권한 요청을 할 때 shouldShowRequestPermissionRationale 함수를 사용하여 반환된 값에 따라 설명이 필요한지 여부를 확인하고, 설명이 필요한 경우에는 사용자에게 권한에 대한 추가적인 설명을 제공해야 한다.
+따라서, 권한 요청을 할 때 s```houldShowRequestPermissionRationale``` 함수를 사용하여 반환된 값에 따라 설명이 필요한지 여부를 확인하고, 설명이 필요한 경우에는 사용자에게 권한에 대한 추가적인 설명을 제공해야 한다.
 
 ## 예시
 
